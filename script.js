@@ -49,6 +49,37 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li><strong>Other Classics:</strong> We frequently rotate in other legendary titles, including classic shooters, fighters, and RPGs from the SNES, PS1, and N64 eras.</li>
                 </ul>
             `
+        },
+        news: {
+            title: "Clan News & Updates",
+            image: "https://e7.pngegg.com/pngimages/422/126/png-clipart-newspaper-computer-icons-symbol-news-icon-text-logo-thumbnail.png",
+            content: `
+                <div class="news-article">
+                    <h3>Coming Soon</h3>
+                    
+                </div>
+                
+            `
+        },
+        join: {
+            title: "Join Star Force",
+            image: "https://www.clipartmax.com/png/middle/274-2746627_join-as-organization-hands-logo-png.png",
+            content: `
+                <p>Think you have what it takes to wear the SF tag? We are always on the lookout for skilled and dedicated players who share our passion for classic gaming. We are more than just a clan; we are a community.</p>
+                
+                <h3>What We Look For:</h3>
+                <ul>
+                    <li><strong>Passion for the Classics:</strong> You must have a genuine love for retro and classic games, not just a passing interest.</li>
+                    <li><strong>Skill and Dedication:</strong> We don't expect you to be a world champion, but a drive to improve and master your chosen games is essential.</li>
+                    <li><strong>Respect and Teamwork:</strong> We have a zero-tolerance policy for toxicity. Members must be respectful, mature, and willing to work as a team.</li>
+                    <li><strong>Active Participation:</strong> We are looking for active members who will participate in clan events, discussions, and games.</li>
+                </ul>
+
+                <h3>How to Apply:</h3>
+                <p>Our recruitment process is based on skill and personality. To be considered, you must challenge and play with our leadership or senior members.</p>
+                <p>Reach out to <strong>Cipher</strong> or <strong>style_wish</strong> on our Discord server to schedule a tryout session. Good luck, candidate.</p>
+                <a href="https://discord.gg/s3WZUNDsAq" class="apply-btn">Join our Discord Server</a>
+            `
         }
     };
 
@@ -170,4 +201,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize the page
     initialize();
+
 });
