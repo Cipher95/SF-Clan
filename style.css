@@ -221,6 +221,52 @@ main#content-area.fade-out {
 .games-list li strong {
     color: var(--accent-color);
 }
+/* --- NEWS ARTICLE STYLES --- */
+.news-article {
+    background-color: rgba(0,0,0,0.2);
+    border-left: 4px solid var(--accent-color);
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 0 8px 8px 0;
+}
+
+.news-article h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: var(--secondary-color);
+    margin-bottom: 5px;
+}
+
+.news-article .date {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+/* --- APPLY BUTTON STYLE --- */
+.apply-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+    text-align: center;
+    border: 1px solid var(--accent-color);
+}
+
+.apply-btn:hover {
+    background-color: var(--secondary-color);
+    box-shadow: 0 0 15px var(--glow-color);
+    transform: scale(1.05);
+    color: #fff;
+    border-color: var(--secondary-color);
+}
+
 
 
 footer {
@@ -287,3 +333,4 @@ footer {
         max-width: 300px;
     }
 }
+
